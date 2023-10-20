@@ -1,0 +1,308 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Thin-webfont.woff);
+}
+
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+
+}
+/*css is absolute pain*/
+
+.h1main {
+    font-size: 5em;
+    font-family: Roboto, serif;
+
+}
+
+.button1 {
+    background-color: #282a36; /* Green */
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: Roboto, serif;
+}
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button1:hover span {
+    padding-right: 25px;
+}
+
+
+.button1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.ButtonCenter{
+    position: relative;
+    left: 20px;
+    margin: auto;
+    min-width: 530px;
+    max-width: 530px;
+    padding: 10px;
+}
+
+.hr{
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+
+.hr3{
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin-top:  10vw;
+}
+
+.hr2{
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin-top:  65vw;
+}
+
+.hr3{
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin-top:  40vw;
+}
+
+.hr4{
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin-top:  13vw;
+}
+
+.p1{
+    margin-left: 17%;
+    margin-top: 6%;
+    font-family: Roboto, serif;
+    font-size: 2em;
+    max-width: 25%;
+    position: relative;
+    min-width: 13%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageHome{
+    margin-left: 60%;
+    position: relative;
+    margin-top: -19%;
+    width: 30%;
+}
+
+.gitLogo img{
+    filter: invert(1);
+    transform: scale(0.06);
+    position: absolute;
+    margin-top: -13.8vw;
+    margin-left: 1.5vw;
+    display: flex;
+    flex: auto;
+}
+
+.disLogo img{
+    filter: invert(1);
+    transform: scale(0.08);
+    position: absolute;
+    margin-top: -12vw;
+    margin-left: -6vw;
+    display: flex;
+    flex: auto;
+
+}
+
+.p2{
+    margin-left: 17%;
+    margin-top: -15%;
+    font-family: Roboto, serif;
+    font-size: 2em;
+    max-width: 25%;
+    position: absolute;
+    min-width: 13%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.p3{
+    margin-left: 17%;
+    margin-top: 10vw;
+    font-family: Roboto, serif;
+    font-size: 2em;
+    max-width: 25%;
+    position: absolute;
+    min-width: 13%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imageShoot1{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -41vw;
+    width: 25%;
+    display: grid;
+
+}
+
+.imageShoot2{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -15vw;
+    width: 25%;
+    display: flex;
+    flex: auto;
+}
+.timage1{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 40vw;
+    width: 15%;
+    display: flex;
+    flex: auto;
+}
+
+.timage2{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 10vw;
+    width: 20%;
+    display: flex;
+    flex: auto;
+}
+
+.coil{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -95vw;
+    width: 20%;
+    display: grid;
+}
+
+.coil2{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -50vw;
+    width: 25%;
+    display: grid;
+}
+
+.graph{
+    margin-left: 25.5%;
+    position: absolute;
+    margin-top: 8vw;
+    width: 50%;
+    display: grid;
+}
+
+.p4{
+    margin-left: 17.5%;
+    margin-top: 2%;
+    font-family: Roboto, serif;
+    font-size: 2em;
+    max-width: 25%;
+    position: relative;
+    min-width: 13%;
+    text-align: left;
+}
+
+.p5{
+    margin-left: 17.5%;
+    margin-top: 20%;
+    font-family: Roboto, serif;
+    font-size: 2em;
+    max-width: 25%;
+    position: relative;
+    min-width: 13%;
+    text-align: left;
+}
+
+.p6{
+    margin-left: 25.5%;
+    margin-top: 20%;
+    font-family: Roboto, serif;
+    font-size: 2em;
+    max-width: 50%;
+    position: relative;
+    min-width: 25%;
+    text-align: left;
+}
+
+@media screen and (min-width: 2560px){
+    article{
+        margin-top: 50em;
+    }
+
+    .hr2{
+        height: 1px;
+        background-color: white;
+        border: none;
+        margin-top:  85vw;
+    }
+
+    .p3{
+        margin-left: 17%;
+        margin-top: 53vw;
+        font-family: Roboto, serif;
+        font-size: 2em;
+        max-width: 25%;
+        position: absolute;
+        min-width: 13%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gitLogo img{
+        filter: invert(1);
+        transform: scale(0.06);
+        position: absolute;
+        margin-top: -7.4vw;
+        margin-left: 5.5vw;
+        display: flex;
+        flex: auto;
+    }
+
+    .disLogo img{
+        filter: invert(1);
+        transform: scale(0.08);
+        position: absolute;
+        margin-top: -6.45vw;
+        margin-left: 2.2vw;
+        display: flex;
+        flex: auto;
+
+    }
+    /* … */
+}
+
+
